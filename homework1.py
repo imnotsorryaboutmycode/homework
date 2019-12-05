@@ -1,6 +1,6 @@
 'homework #1 py'
 
-'task 1'
+'---task 1---'
 
 var1 = 123
 str1 = 'TEST OUTPUT'
@@ -17,7 +17,7 @@ height = float(input("Enter your height: "))
 print ("Hello "+name+" "+surname+" "+str(age)+" old and "+str(height)+" tall :)")
 
 
-'task 2'
+'---task 2---'
 s = int(input("Enter seconds to convert: "))
 
 m = s // 60
@@ -27,7 +27,7 @@ m = m % 60
 
 print("%02i:%02i:%02i" % (h,m,s))
 
-'task 3'
+'---task 3---'
 n = int(input("Enter some number: "))
 
 one_n = str(n)
@@ -39,7 +39,7 @@ magic_n = int(one_n)+int(two_n)+int(three_n)
 print ("Some MAGIC")
 print (magic_n)
 
-'task 4'
+'---task 4---'
 i = int(input("Enter any number: "))
 
 max_d = 0
@@ -51,7 +51,7 @@ while i > 10:
         
 print("Max digit in your number is "+str(max_d))
 
-'task 5'
+'---task 5---'
 revenue = float(input("Enter your revenue: "))
 cost = float(input("Enter your cost: "))
 
@@ -69,7 +69,7 @@ elif revenue < cost:
 else:
     print ("Your revenue = cost")
     
-'task 6'
+'---task 6---'
 a_km = int(input('Enter a km: '))
 b_km = int(input('Enter b km: '))
 
